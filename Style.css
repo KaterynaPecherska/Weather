@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    block-size: border-box;
+    width: 1200px;
+    height: 900px;
+    max-height: 100%;
+    max-width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+    margin: 0 auto;
+}
+
+.container {
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+header {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.cities {
+    max-width: 686px;
+
+    border: 5px solid white;
+    font-size: 0;
+    margin: 0 auto;
+}
+
+.cities > div {
+    display: inline-block;
+    border: 5px solid white;
+    box-sizing: content-box;
+    color: #fff;
+    font-size: 1rem;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+
+
+
+.cities:hover > div {
+    opacity: .3;
+}
+.cities > div:hover {
+    opacity: 1;
+    transition: opacity 1.09s;
+    border-left: 5px solid #fff;
+
+}
+.lisbon {
+    width: calc(50% - 5px);
+    background-color: #3399cc;
+
+}
+
+
+.paris {
+    width: calc(25% - 5px);
+    background-color: aqua;
+
+
+}
+
+.belgrad {
+    width: calc(25%);
+    background-color: mediumpurple;
+    margin-right: -5px;
+
+}
+
+.moscow {
+    width: calc(25% - 5px);
+    background-color: orangered;
+}
+
+.telaviv {
+    width: calc(25% - 5px);
+    background-color: darkorange;
+}
+
+.ciaro {
+    width: calc(25% - 5px);
+    background-color: #a4a45e;
+}
+
+.newyork {
+    width: calc(25%);
+    background-color: darkolivegreen;
+    margin-right: -5px;
+}
+
+.newdelhi {
+    width: calc(25% - 5px);
+    background-color: #9c9;
+
+}
+
+.sanfrancisco {
+    width: calc(50% - 5px);
+    background-color: pink;
+}
+
+.tokyo {
+    width: calc(25%);
+    background-color: forestgreen;
+    margin-right: -5px;
+}
+
+.sydney {
+    width: calc(100%);
+    margin-bottom: -5px;
+    background-color: #669;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+i {
+    font-size: 30px;
+    vertical-align: bottom;
+}
+
+footer{
+    margin: 15px auto;
+    width: 70%;
+}
+.footer_text{
+    margin: 0 auto;
+    font-size: 15px;
+}
